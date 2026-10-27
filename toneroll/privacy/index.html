@@ -32,6 +32,7 @@
 <li>濾鏡效果都在手機上計算。照片存在手機的「Pictures/Toneroll」資料夾，不會上傳到任何伺服器。</li>
 <li>存下的照片會記錄拍攝時間，不記錄位置。App 不要求定位權限。</li>
 <li>使用「編輯照片」時，你透過 Android 的相片挑選工具選一張照片。App 只讀取這張照片和它的拍攝時間，並把拍攝時間寫進新存的照片。</li>
+<li>使用「掃描濾鏡」時，App 在手機上從相機畫面，或從你用 Android 相片挑選工具選的一張圖片，讀取濾鏡的 QR code。這些畫面和圖片不會存下，也不會上傳。</li>
 </ul>
 
 <h2>3. 只存在手機上的資料</h2>
@@ -40,11 +41,14 @@
 <li>「我的濾鏡」的名稱和設定。</li>
 <li>每台特色相機已經用掉的免費照片張數。</li>
 <li>是否已經解鎖 Pro。</li>
+<li>收藏的相機，以及「最近用過」的相機。</li>
+<li>已經看過哪些操作提示。</li>
 <li>你對「分享使用統計」的選擇，以及最近三組統計代碼（見第 4 節）。</li>
 </ul>
 <p>如果你分享使用統計，第 4 節列出的內容會包含其中一部分，例如存成「我的濾鏡」時的設定數值（不含名稱）、是否用掉免費照片，以及是否完成解鎖。</p>
 <p>如果你開啟了 Android 的 Google 備份，Android 可能會把「我的濾鏡」和免費照片張數備份到你的 Google 帳號，方便換手機時還原。這份備份由 Google 依你的帳號保管，我們看不到。</p>
-<p>解除安裝 App 會刪除這些資料，但已經存下的照片會留在手機上。「匯出設定」會把濾鏡設定存成一個檔案，存放位置由你選擇，要不要分享給別人也由你決定。</p>
+<p>解除安裝 App 會刪除這些資料，但已經存下的照片會留在手機上。</p>
+<p>「分享濾鏡」會把一個濾鏡做成一張 QR code 圖片。QR code 裡只有濾鏡的名稱、一組隨機產生的濾鏡代碼、用的相機和調整過的數值，沒有照片、位置或其他個人資料。圖片在手機上產生，不會傳給我們。要不要用其他 App 分享，或用「儲存圖片」存進相簿，都由你決定。拿到圖片的人都能讀出 QR code 的內容，包括濾鏡名稱。</p>
 
 <h2>4. 使用統計（由你選擇）</h2>
 <p>第一次開啟 App 時，App 會問你要不要「分享使用統計」。兩個選項一樣大，不分享也能使用全部功能。在你回答之前，以及選擇「不要分享」之後，App 都不會傳送使用統計（購買功能本身的運作紀錄見第 5 節）。你隨時可以在「設定 › 隱私」改變選擇。</p>
@@ -52,7 +56,7 @@
 <h3>分享時會傳送的內容</h3>
 <ul>
 <li>看了哪一台相機或哪一個濾鏡，以及它屬於擴充相機、基礎相機還是我的濾鏡。</li>
-<li>存下照片時：用的相機、照片來自拍照還是編輯、形狀（照片比例）、相框、是否加上日期戳記、錄影文字樣式、是否開閃光燈，以及是否用掉一張免費照片。</li>
+<li>存下照片時：用的相機、照片來自拍照還是編輯、形狀（照片比例）、相框、是否加上日期戳記、錄影帶字樣、是否開閃光燈，以及是否用掉一張免費照片。</li>
 <li>完成「調整」時：改了哪些設定，以及新的數值（例如曝光 +0.35）。</li>
 <li>存成「我的濾鏡」時：它從哪一台內建相機調出來、效果版本，以及設定數值。不包含你取的名稱。</li>
 <li>付費頁面：從哪裡打開（例如免費照片用完時）和是哪一台相機、選了哪一種方案，以及是否完成解鎖。</li>
@@ -105,7 +109,7 @@
 <p>不論哪個版本，我們都不出售或出租任何資料。</p>
 
 <h2>9. 資料安全</h2>
-<p>App 和 Google 之間的傳輸都經過加密（HTTPS）。第 3 節的資料存在 App 的私人空間，其他 App 無法讀取。存下的照片在手機共用的「Pictures/Toneroll」資料夾，有相片存取權限的其他 App（例如相簿）可以讀取；匯出的設定檔存在你選擇的位置。只有開發者本人能進入統計和訂單的後台。</p>
+<p>App 和 Google 之間的傳輸都經過加密（HTTPS）。第 3 節的資料存在 App 的私人空間，其他 App 無法讀取。存下的照片在手機共用的「Pictures/Toneroll」資料夾，有相片存取權限的其他 App（例如相簿）可以讀取；用「儲存圖片」存下的濾鏡 QR code 圖片也在這個資料夾。分享濾鏡時，圖片先暫存在 App 的私人空間，只有你在分享選單選的 App 能讀取這一張，暫存的圖片之後會自動刪除。只有開發者本人能進入統計和訂單的後台。</p>
 
 <h2>10. 你的權利</h2>
 <p>依《個人資料保護法》第 3 條，對於我們保有的你的資料，你可以：查詢或請求閱覽、請求製給複製本、請求補充或更正、請求停止蒐集、處理或利用，以及請求刪除。</p>
@@ -144,6 +148,7 @@
 <li>All filter effects are computed on your phone. Photos are saved in the phone’s “Pictures/Toneroll” folder and are never uploaded to any server.</li>
 <li>Saved photos record the time they were taken, but not the location. The app does not ask for location permission.</li>
 <li>When you use “Edit photo” (編輯照片), you choose one photo with Android’s photo picker. The app reads only that photo and the time it was taken, and writes that time into the new photo it saves.</li>
+<li>When you use “Scan filter” (掃描濾鏡), the app reads a filter’s QR code on your phone, from the camera view or from one picture you choose with Android’s photo picker. These views and pictures are not saved and never uploaded.</li>
 </ul>
 
 <h2>3. Data that stays on your phone</h2>
@@ -152,11 +157,14 @@
 <li>The names and settings of My filters (我的濾鏡).</li>
 <li>How many free photos you have used with each featured camera.</li>
 <li>Whether Pro is unlocked.</li>
+<li>Your favourite cameras, and the cameras you used recently (最近用過).</li>
+<li>Which tips you have already seen.</li>
 <li>Your answer about sharing usage statistics, and your last three statistics IDs (see section 4).</li>
 </ul>
 <p>If you share usage statistics, the items in section 4 include part of this data, such as the setting values when you save to My filters (never the name), whether a free photo was used, and whether Pro was unlocked.</p>
 <p>If Android’s Google backup is on, Android may back up My filters and the free photo counts to your Google Account, so they can be restored on a new phone. Google keeps this backup under your account, and we cannot see it.</p>
-<p>Uninstalling the app deletes this data, but the photos you saved stay on your phone. “Export settings” (匯出設定) saves a filter’s settings as a file in a place you choose. Whether you share that file is up to you.</p>
+<p>Uninstalling the app deletes this data, but the photos you saved stay on your phone.</p>
+<p>“Share filter” (分享濾鏡) turns one filter into a QR code picture. The QR code holds only the filter’s name, a randomly made filter code, the camera it uses and the values you changed. It holds no photo, no location and no other personal data. The picture is made on your phone and is not sent to us. Whether you share it through another app, or keep it in your gallery with “Save picture” (儲存圖片), is up to you. Anyone who gets the picture can read what the QR code holds, including the filter’s name.</p>
 
 <h2>4. Usage statistics (your choice)</h2>
 <p>The first time you open the app, it asks whether you want to share usage statistics. The two answers are the same size, and every feature works without sharing. Before you answer, and after you choose “Don’t share” (不要分享), the app sends no usage statistics (for the logs of the purchase feature itself, see section 5). You can change your choice at any time in Settings › Privacy (設定 › 隱私).</p>
@@ -164,7 +172,7 @@
 <h3>What is sent when you share</h3>
 <ul>
 <li>Which camera or filter you looked at, and whether it is an extra camera (擴充相機), a base camera (基礎相機) or one of My filters.</li>
-<li>When you save a photo: the camera used, whether the photo came from the camera or the editor, the shape (形狀, the aspect ratio), the frame (相框), whether the date stamp (日期戳記) is on, the on-screen video text style (錄影文字), whether the flash was on, and whether a free photo was used.</li>
+<li>When you save a photo: the camera used, whether the photo came from the camera or the editor, the shape (形狀, the aspect ratio), the frame (相框), whether the date stamp (日期戳記) is on, the videotape lettering style (錄影帶字樣), whether the flash was on, and whether a free photo was used.</li>
 <li>When you finish “Adjust” (調整): which settings you changed and their new values (for example, exposure +0.35).</li>
 <li>When you save to My filters: the built-in camera it was made from, the effect version, and the setting values. Never the name you gave it.</li>
 <li>The paywall: where it was opened from (for example, when the free photos ran out) and for which camera, which plan you chose, and whether Pro was unlocked.</li>
@@ -217,7 +225,7 @@
 <p>In every version, we never sell or rent any data.</p>
 
 <h2>9. Security</h2>
-<p>Data sent between the app and Google is encrypted (HTTPS). The data in section 3 is kept in the app’s private storage, which other apps cannot read. Saved photos go to the phone’s shared “Pictures/Toneroll” folder, which other apps with photo access (such as your gallery) can read. Exported settings files go where you choose. Only the developer can open the statistics and order consoles.</p>
+<p>Data sent between the app and Google is encrypted (HTTPS). The data in section 3 is kept in the app’s private storage, which other apps cannot read. Saved photos go to the phone’s shared “Pictures/Toneroll” folder, which other apps with photo access (such as your gallery) can read. Filter QR code pictures kept with “Save picture” (儲存圖片) go to the same folder. When you share a filter, the picture is first kept in the app’s private storage, only the app you pick in the share menu can read that one picture, and kept pictures are deleted automatically later. Only the developer can open the statistics and order consoles.</p>
 
 <h2>10. Your rights</h2>
 <p>Under Article 3 of Taiwan’s Personal Data Protection Act, for the data we hold about you, you may ask whether we hold it and ask to see it, ask for a copy, ask us to add to or correct it, ask us to stop collecting, processing or using it, and ask us to delete it.</p>
