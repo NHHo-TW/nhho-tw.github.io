@@ -98,7 +98,7 @@
 <h2>6. 檢查新版本</h2>
 <ul>
 <li>從 1.0.5 版起，App 內含 Google 提供的 Play 應用程式內更新程式庫，用來向手機上的 Google Play 商店 App 查詢這支手機有沒有可用的更新。Google Play 表示有可用的更新時，相機畫面上的「設定」按鈕會出現一個點，「設定」最上面會出現「有新版本」。</li>
-<li>從第一次開啟 App 起，不論你是否分享使用統計，App 都會查詢，這項查詢無法關閉。App 啟動時和之後回到 App 時會查詢，但距離上一次得到的回答不到 6 小時就不再查。</li>
+<li>從第一次開啟 App 起，不論你是否分享使用統計，App 都會查詢，這項查詢無法關閉。App 每次啟動時會查詢；App 開著期間，回到 App 時也會查詢，但距離上一次得到的回答不到 6 小時就不再查。</li>
 <li>這項查詢在手機上交給 Google Play 商店 App，App 本身不會為此連上網路。App 交給 Google Play 商店 App 的只有 App 的套件名稱和版本號，以及程式庫的版本號，不含識別碼或其他個人資料。這項查詢不是使用統計，查詢和結果都不會傳給我們。App 不會把結果存進手機的儲存空間。</li>
 <li>Google 說明，應用程式內更新會收集裝置中繼資料、App 版本，以及已安裝的模組和資產包清單（本 App 沒有額外的模組或資產包），用來判斷有沒有可用的更新，以及更新檔案預計的大小；這些資料已加密，不會轉移給任何第三方，並在固定的保留期限後刪除。Google 沒有說明裝置中繼資料包含哪些項目，也沒有說明保留期限多長。</li>
 <li>Google 說明，Play 商店以自己的程序處理這項查詢，並依 <a href="https://play.google.com/intl/zh-TW_tw/about/play-terms/index.html">Google Play 服務條款</a>處理資料；條款也指出，你使用 Google Play 時 Google 如何處理你的個人資料，見 <a href="https://policies.google.com/privacy?hl=zh-TW">Google 隱私權政策</a>。我們看不到這些資料，也無法刪除。</li>
@@ -121,7 +121,7 @@
 <p>不論哪個版本，我們都不出售或出租任何資料。</p>
 
 <h2>10. 資料安全</h2>
-<p>App 和 Google 之間的傳輸都經過加密（HTTPS）。第 3 節的資料存在 App 的私人空間，其他 App 無法讀取。存下的照片在手機共用的「Pictures/Toneroll」資料夾，有相片存取權限的其他 App（例如相簿）可以讀取；用「儲存圖片」存下的濾鏡 QR code 圖片也在這個資料夾。分享濾鏡時，圖片先暫存在 App 的私人空間，只有你在分享選單選的 App 能讀取這一張，暫存的圖片之後會自動刪除。只有開發者本人能進入統計和訂單的後台。</p>
+<p>App 和 Google 之間經過網路的傳輸都經過加密（HTTPS）；檢查新版本時，App 只在手機上把查詢交給 Google Play 商店 App（見第 6 節）。第 3 節的資料存在 App 的私人空間，其他 App 無法讀取。存下的照片在手機共用的「Pictures/Toneroll」資料夾，有相片存取權限的其他 App（例如相簿）可以讀取；用「儲存圖片」存下的濾鏡 QR code 圖片也在這個資料夾。分享濾鏡時，圖片先暫存在 App 的私人空間，只有你在分享選單選的 App 能讀取這一張，暫存的圖片之後會自動刪除。只有開發者本人能進入統計和訂單的後台。</p>
 
 <h2>11. 你的權利</h2>
 <p>依《個人資料保護法》第 3 條，對於我們保有的你的資料，你可以：查詢或請求閱覽、請求製給複製本、請求補充或更正、請求停止蒐集、處理或利用，以及請求刪除。</p>
@@ -226,7 +226,7 @@
 <h2>6. Checking for a new version</h2>
 <ul>
 <li>Since version 1.0.5, the app includes the Play In-App Updates Library, made by Google, to ask the Google Play Store app on your phone whether an update is available for this phone. When Google Play says one is, the Settings (設定) button on the camera screen shows a dot, and “New version” (有新版本) appears at the top of Settings.</li>
-<li>From the first time you open the app, whether or not you share usage statistics, the app asks, and this check cannot be turned off. The app asks when it starts and when you come back to it, but not within 6 hours of the last answer.</li>
+<li>From the first time you open the app, whether or not you share usage statistics, the app asks, and this check cannot be turned off. The app asks each time it starts. While it keeps running, it also asks when you come back to it, but not within 6 hours of the last answer.</li>
 <li>The app hands the question to the Google Play Store app on the phone; the app itself opens no network connection for it. It gives the Google Play Store app only the app’s package name and version number and the library’s version number, with no ID or other personal data. The check is not usage statistics, and neither the question nor the answer is sent to us. The app does not save the answer in your phone’s storage.</li>
 <li>Google says that in-app updates collect device metadata, the app version, and the list of installed modules and asset packs (this app has no extra modules or asset packs), to determine whether an update is available and how large it is expected to be; this data is encrypted, is not transferred to any third parties, and is deleted after a fixed retention period. Google does not say what device metadata includes or how long the retention period is.</li>
 <li>Google says the Play Store runs its own processes for this check and handles the data as governed by the <a href="https://play.google.com/intl/en_us/about/play-terms/index.html">Google Play Terms of Service</a>; those terms point to the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a> for how Google treats your personal data when you use Google Play. We cannot see this data, and we cannot delete it.</li>
@@ -249,7 +249,7 @@
 <p>In every version, we never sell or rent any data.</p>
 
 <h2>10. Security</h2>
-<p>Data sent between the app and Google is encrypted (HTTPS). The data in section 3 is kept in the app’s private storage, which other apps cannot read. Saved photos go to the phone’s shared “Pictures/Toneroll” folder, which other apps with photo access (such as your gallery) can read. Filter QR code pictures kept with “Save picture” (儲存圖片) go to the same folder. When you share a filter, the picture is first kept in the app’s private storage, only the app you pick in the share menu can read that one picture, and kept pictures are deleted automatically later. Only the developer can open the statistics and order consoles.</p>
+<p>Data sent over the network between the app and Google is encrypted (HTTPS); for the check for a new version, the app only hands the question to the Google Play Store app on the phone (see section 6). The data in section 3 is kept in the app’s private storage, which other apps cannot read. Saved photos go to the phone’s shared “Pictures/Toneroll” folder, which other apps with photo access (such as your gallery) can read. Filter QR code pictures kept with “Save picture” (儲存圖片) go to the same folder. When you share a filter, the picture is first kept in the app’s private storage, only the app you pick in the share menu can read that one picture, and kept pictures are deleted automatically later. Only the developer can open the statistics and order consoles.</p>
 
 <h2>11. Your rights</h2>
 <p>Under Article 3 of Taiwan’s Personal Data Protection Act, for the data we hold about you, you may ask whether we hold it and ask to see it, ask for a copy, ask us to add to or correct it, ask us to stop collecting, processing or using it, and ask us to delete it.</p>
